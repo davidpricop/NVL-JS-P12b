@@ -9,12 +9,12 @@
         function random(cantNum) {
             let random = [];
             let i = 0;
-            while(i < 50){
+            while(i < cantNum){
                 let num = Math.floor((Math.random() * cantNum) + 1);
                 random[i] = num;
                 i++;
             }
-            return(random);
+            return random;
         }
     
         function paresYimpares(array) {
