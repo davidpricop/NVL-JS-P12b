@@ -18,22 +18,22 @@
         }
     
         function paresYimpares(array) {
-            var pares = [];
-            var impares = [];
-            for (var i = 0; i < array.length; i++){
+            let pares = [];
+            let impares = [];
+            for (let i = 0; i < array.length; i++){
                 if (array[i]%2 == 0){
                     pares.push(array[i]);
                 } else {
                     impares.push(array[i]);
                 }
             }
-            var paresyimpares = [pares,impares];
+            let paresyimpares = [pares,impares];
             return(paresyimpares);
         }
 
-        var num = random(100);
+        let num = random(100);
 
-        var valorParesyImpares = paresYimpares(num);
+        let valorParesyImpares = paresYimpares(num);
 
         document.write(valorParesyImpares[0]+"<br>"+valorParesyImpares[1]);
     </script>
